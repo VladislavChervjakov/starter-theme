@@ -68,6 +68,7 @@ Thumbs.db
 !README.md
 !CHANGELOG.md
 !composer.json
+!.babelrc
 
 # track these themes
 !wp-content/themes/starter-theme/
