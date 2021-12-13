@@ -14,7 +14,9 @@ function buildSass( cb ) {
 // Task for compiling and minifying js
 function buildJs( cb ) {
     src( './assets/js/**/*.js' )
-        //.pipe( babel() )
+        .pipe( babel( {
+            presets: ['@babel/preset-env']
+        } ) )
         .pipe( minify( {
             ext: {
                 min: '.min.js'
