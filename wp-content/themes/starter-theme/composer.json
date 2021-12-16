@@ -1,0 +1,17 @@
+{
+    "name": "vladislavcervakov/starter-theme",
+    "description": "Starter theme",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vlad9999",
+            "email": "vladchervjakov@gmail.com"
+        }
+    ],
+    "require": {}
+}
